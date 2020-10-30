@@ -1,9 +1,65 @@
-<html>
-    <head>
-        Submit Form
-    </head>
 
-    <body>
-        <h1> Form Submitted Successfully...!</h1>
-    </body>
+<html lang="en" id="sidjs">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="sidstyle.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
+    <script src="https://www.vantajs.com/dist/vanta.waves.min.js"></script>
+    <style type="text/css">
+    	body {
+		  box-sizing: border-box;
+		  /*background-color: black;*/
+		  background-color: #89cff0;
+		}
+
+		div.jumbotron {
+		  margin-top: 50px;
+		  background-color: azure;
+		  opacity: 0.91;
+		}
+
+		button {
+		  text: white;
+		  margin-left: 30px;
+		}
+
+    </style>
+    
+  </head>
+
+  <body class="text-center" id="sidjs">
+      <br><br>
+  <div class="container" >
+  	<div class="jumbotron">
+  	<br><br><br>
+    <h1 class="display-12" tyle=" font-weight: bolder;" > Form Submitted Successfully!! </h1>
+    <h2 class="display-12" tyle=" font-weight: bolder;" > <a href="index.html">Go Back!!</a> </h2>
+    <br>
+    </div>
+    
+</body>
+<script>
+    VANTA.WAVES({
+      el: "#sidjs",
+      mouseControls: true,
+      touchControls: false,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      shininess: 45.00,
+      waveHeight: 10.00,
+      waveSpeed: 0.50,
+      zoom: 0.7
+    })
+    </script>
 </html>
